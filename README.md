@@ -1,6 +1,8 @@
-OC: Linux Ubuntu 22.04
-Если удалил что-то лишнее, то исходник с названием мейн папки лежит в зипке
-Так же сам кастомный пакет со шрифтами лежит.
+# [Установка](https://github.com/mstyura/bsuir-diploma-latex)
+
+OC: Linux Ubuntu 22.04  
+Если удалил что-то лишнее, то исходник лежит в зипке.  
+Так же сам кастомный пакет со шрифтами.
 # 1. Проблемы с Times New Roman
 
 ```bash
@@ -12,13 +14,13 @@ sudo apt-get --reinstall install ttf-mscorefonts-installer
 
 ## Собрать
 ```bash
-../diploma/goose-master/main_report/ make
+../main_report/ make
 ```
 ---
 
 ## Очистка конфигов:
 ```bash
-../diploma/goose-master/main_report/ make clean
+../main_report/ make clean
 ```
 ---
 
